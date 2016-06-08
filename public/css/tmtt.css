@@ -1,0 +1,104 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: table;
+    /*font-weight: 100;*/
+    font-family: 'Lato';
+}
+
+.container {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.content {
+    text-align: center;
+    display: inline-block;
+}
+
+.title {
+    font-size: 96px;
+    color: #3260DB;
+}
+
+.inputs,
+.outputs {
+    font-family: Roboto;
+    font-size: x-large;
+}
+
+.outputs {
+    color: #3260DB;
+    background: #EEF0F7;
+    font-size: 50px;
+}
+
+.outputs#timeup {
+    background: #FFFFFF;
+    color: #A62626;
+    padding: 0 5px;
+}
+
+.outputs#start-again {
+    background: #3260DB;
+}
+
+.outputs#start-again:hover {
+    background: #738BCA;
+}
+
+.outputs#start-again {
+    color: #fff;
+}
+
+#start-time {
+    background: #3260DB;
+    margin-bottom: 5px;
+}
+
+#logo {
+    max-width: 25%;
+}
+
+input#speech-time {
+    text-align: center;
+    font-size: 50px;
+    color: #3260DB;
+}
+
+#brief {
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-size: 110%;
+    background: #DB3232;
+    font-family: cursive;
+    font-style: italic;
+    margin: 0;
+}
+
+input#speech-time:focus {
+    border-bottom: 1px solid #3260DB;
+    box-shadow: 0 1px 0 0 #3260DB;
+}
+input[type=number]:focus:not([readonly])+label {
+    color: #3260DB;
+}
+
+input#speech-time:focus {
+    border-bottom: 1px solid #3260DB;
+    box-shadow: 0 1px 0 0 #3260DB;
+}
+
+label[for=speech-time] {
+    color: #3260DB;
+    font-size: 1.1rem;
+    text-align: center
+}
